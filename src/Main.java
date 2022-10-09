@@ -11,6 +11,5 @@ public class Main {
         Field.initField();
         Drawer.draw();
         Field.putShips();
-
     }
 }
