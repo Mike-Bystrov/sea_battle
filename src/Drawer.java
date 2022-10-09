@@ -8,8 +8,6 @@ public class Drawer {
         Drawer.field = field;
     }
 
-     //   System.out.println(SystemColors.RED + "RED COLORED" + SystemColors.RESET + " NORMAL");
-     //   System.out.println(SystemColors.RED_BACKGROUND + "RED BACK" + SystemColors.RESET + " NORMAL");
      public static void clearScreen() {
          System.out.print("\033[H\033[2J");
          System.out.flush();
