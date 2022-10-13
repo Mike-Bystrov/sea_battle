@@ -8,6 +8,7 @@ public class ComputerField extends Field {
     private static int numberOfTakenBlocks = 0;
     private static final Random random = new Random();
 
+    // hello mike
     @Override
     //TODO проверить почему корабли становятся рядом!!!!
     public void putShips() {
